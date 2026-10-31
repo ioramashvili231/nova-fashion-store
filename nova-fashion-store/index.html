@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVA — შენი სტილი</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a href="#" class="logo">NOVA<span>.</span></a>
+
+    <nav id="mainNav">
+      <a href="#home">მთავარი</a>
+      <a href="#catalog">კოლექცია</a>
+      <a href="#arrivals">სიახლეები</a>
+      <a href="#about">ჩვენ შესახებ</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="themeToggle" aria-label="Dark mode">☾</button>
+      <button id="searchToggle" aria-label="Search">⌕</button>
+      <button id="accountBtn" aria-label="Account">♙</button>
+      <button id="favoritesBtn" aria-label="Favorites">♡ <span id="favCount">0</span></button>
+      <button id="cartBtn" aria-label="Cart">🛍 <span id="cartCount">0</span></button>
+      <button id="menuBtn" class="menu-btn" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> NEW SEASON / 2026</div>
+        <h1>შენი სტილი.<br>შენი <em>წესები.</em></h1>
+        <p>აღმოაჩინე თანამედროვე მოდა, რომელიც შენს ინდივიდუალურობას უსვამს ხაზს.</p>
+        <a href="#catalog" class="primary-btn">კოლექციის ნახვა ↗</a>
+        <div class="hero-note">DESIGNED FOR YOUR EVERYDAY LIFE.</div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1100&q=85" alt="NOVA fashion collection">
+        <div class="image-tag">NOVA / 026</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <div class="container benefits-grid">
+      <div><span>01</span><strong>უფასო მიწოდება</strong><small>შეკვეთებზე 150₾-დან</small></div>
+      <div><span>02</span><strong>მარტივი დაბრუნება</strong><small>14 დღის განმავლობაში</small></div>
+      <div><span>03</span><strong>უსაფრთხო გადახდა</strong><small>მარტივი და კომფორტული</small></div>
+      <div><span>04</span><strong>შერჩეული ხარისხი</strong><small>შენი ყოველდღიური სტილისთვის</small></div>
+    </div>
+  </section>
+
+  <section class="sale-banner">
+    <div class="container sale-content">
+      <div>
+        <span class="sale-label">SPECIAL OFFER / NOVA</span>
+        <h2>შენი ახალი სტილი<br>ახლა <span>20%-ით იაფად.</span></h2>
+        <p>აღმოაჩინე რჩეული პროდუქტები სპეციალური შეთავაზებით.</p>
+        <a href="#catalog" class="sale-btn">შეიძინე ახლა ↗</a>
+      </div>
+      <div class="sale-number">-20%</div>
+    </div>
+  </section>
+
+  <section class="arrivals-section" id="arrivals">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow"><span></span> JUST ARRIVED</div>
+          <h2>ახალი კოლექცია</h2>
+          <p>აღმოაჩინე NOVA-ს უახლესი არჩევანი.</p>
+        </div>
+        <a href="#catalog" class="text-link">ყველა პროდუქტი ↗</a>
+      </div>
+
+      <div class="arrivals-grid">
+        <a href="#catalog" class="arrival-card">
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=85" alt="Fashion collection">
+          <div class="arrival-overlay"><span>01 / STYLE</span><h3>Everyday Looks</h3><p>აღმოაჩინე მეტი ↗</p></div>
+        </a>
+        <a href="#catalog" class="arrival-card">
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=85" alt="New fashion">
+          <div class="arrival-overlay"><span>02 / COLLECTION</span><h3>New Essentials</h3><p>აღმოაჩინე მეტი ↗</p></div>
+        </a>
+        <a href="#catalog" class="arrival-card">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=85" alt="Street fashion">
+          <div class="arrival-overlay"><span>03 / TREND</span><h3>Urban Mood</h3><p>აღმოაჩინე მეტი ↗</p></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalog-section" id="catalog">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow"><span></span> THE NOVA SELECTION</div>
+          <h2>შეარჩიე შენი სტილი</h2>
+          <p>შენი ყოველდღიური გარდერობის ახალი საყვარელი ნივთები.</p>
+        </div>
+      </div>
+
+      <div class="category-tabs" id="categoryTabs">
+        <button class="active" data-category="ყველა">ყველა</button>
+        <button data-category="ტანსაცმელი">ტანსაცმელი</button>
+        <button data-category="ფეხსაცმელი">ფეხსაცმელი</button>
+        <button data-category="აქსესუარები">აქსესუარები</button>
+      </div>
+
+      <div class="catalog-layout">
+        <aside class="filters">
+          <div class="filter-title"><h3>ფილტრები</h3><button id="clearFilters">გასუფთავება</button></div>
+
+          <div class="filter-group">
+            <h4>ფასი</h4>
+            <input type="range" id="priceRange" min="30" max="500" value="500">
+            <div class="range-label"><span>30₾</span><strong id="maxPriceLabel">500₾</strong></div>
+          </div>
+
+          <div class="filter-group">
+            <h4>ზომა</h4>
+            <div class="sizes" id="sizeFilters">
+              <button data-size="S">S</button><button data-size="M">M</button>
+              <button data-size="L">L</button><button data-size="XL">XL</button>
+              <button data-size="39">39</button><button data-size="40">40</button>
+              <button data-size="41">41</button><button data-size="42">42</button>
+              <button data-size="43">43</button><button data-size="ONE">ONE</button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <h4>ფერი</h4>
+            <div class="colors">
+              <button data-color="შავი" title="შავი" style="--swatch:#222"></button>
+              <button data-color="თეთრი" title="თეთრი" style="--swatch:#eee"></button>
+              <button data-color="კრემისფერი" title="კრემისფერი" style="--swatch:#d7c5a8"></button>
+              <button data-color="მწვანე" title="მწვანე" style="--swatch:#65734c"></button>
+              <button data-color="ლურჯი" title="ლურჯი" style="--swatch:#526d91"></button>
+            </div>
+          </div>
+        </aside>
+
+        <div class="catalog-main">
+          <div class="catalog-toolbar">
+            <input id="searchInput" type="search" placeholder="მოძებნე პროდუქტი...">
+            <select id="sortSelect">
+              <option value="default">დალაგება</option>
+              <option value="low">ფასი: დაბლიდან</option>
+              <option value="high">ფასი: მაღლიდან</option>
+              <option value="name">სახელით</option>
+            </select>
+          </div>
+          <div class="results-line"><span id="resultsCount">12 პროდუქტი</span><span>ALL PRODUCTS / NOVA</span></div>
+          <div class="product-grid" id="productGrid"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <h3>პროდუქტი ვერ მოიძებნა</h3>
+            <p>სცადე ფილტრების შეცვლა.</p>
+            <button id="emptyReset" class="primary-btn">ფილტრების გასუფთავება</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="editorial" id="about">
+    <div class="container editorial-content">
+      <div>
+        <div class="eyebrow"><span></span> ABOUT NOVA</div>
+        <h2>მოდა, რომელიც<br><em>შენ გგავს.</em></h2>
+        <p>NOVA არის თანამედროვე სტილის სივრცე მათთვის, ვინც აფასებს სიმარტივეს, ინდივიდუალურობასა და ხარისხს. ჩვენი მიზანია, ყოველდღიური ჩაცმა უფრო საინტერესო გავხადოთ.</p>
+        <a href="#catalog" class="primary-btn">აღმოაჩინე NOVA ↗</a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=900&q=85" alt="NOVA about fashion">
+    </div>
+  </section>
+
+  <section class="reviews-section">
+    <div class="container">
+      <div class="reviews-heading">
+        <div class="eyebrow"><span></span> CUSTOMER LOVE</div>
+        <h2>რას ამბობენ ჩვენზე</h2>
+        <p>ჩვენი მომხმარებლების გამოცდილება NOVA-სთან.</p>
+      </div>
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>„ძალიან მომეწონა დიზაინი და პროდუქტის ხარისხი. აუცილებლად კიდევ შევუკვეთავ!“</p>
+          <div class="review-user"><div class="user-avatar">ნ</div><div><strong>ნინო მ.</strong><span>მომხმარებელი</span></div></div>
+        </article>
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>„მარტივი და კომფორტული შოპინგი. ზუსტად ისეთი სტილია, როგორიც მიყვარს.“</p>
+          <div class="review-user"><div class="user-avatar">გ</div><div><strong>გიორგი კ.</strong><span>მომხმარებელი</span></div></div>
+        </article>
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>„სასიამოვნო გამოცდილება, ლამაზი კოლექცია და ძალიან კარგი არჩევანი.“</p>
+          <div class="review-user"><div class="user-avatar">მ</div><div><strong>მარიამ ლ.</strong><span>მომხმარებელი</span></div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-section">
+    <div class="container newsletter-content">
+      <div class="eyebrow"><span></span> STAY CONNECTED</div>
+      <h2>იყავი <span>NOVA-ს</span> სიახლეების ნაწილი.</h2>
+      <p>გამოიწერე სიახლეები და გაიგე პირველმა ახალი კოლექციებისა და შეთავაზებების შესახებ.</p>
+      <form id="newsletterForm" class="newsletter-form">
+        <input type="email" placeholder="შეიყვანე შენი ელფოსტა" required>
+        <button type="submit">გამოწერა ↗</button>
+      </form>
+      <small>გამოწერით ეთანხმები სიახლეების მიღებას.</small>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div><a href="#" class="logo">NOVA<span>.</span></a><p>შენი სტილი. შენი წესები.</p></div>
+    <div class="footer-links"><a href="#home">მთავარი</a><a href="#catalog">კოლექცია</a><a href="#about">ჩვენ შესახებ</a></div>
+    <div class="footer-social"><span>FOLLOW US</span><p>INSTAGRAM · FACEBOOK · TIKTOK</p></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 NOVA. ყველა უფლება დაცულია.</span><span>Created by ლაშა იორამაშვილი</span></div>
+</footer>
+
+<!-- კალათის ფანჯარა -->
+<div class="overlay" id="overlay"></div>
+<aside class="cart-drawer" id="cartDrawer">
+  <div class="drawer-header"><h2>შენი კალათა <span id="drawerCount">0</span></h2><button id="closeCart">✕</button></div>
+  <div id="cartItems"></div>
+  <div class="drawer-bottom"><div class="total-line"><span>ჯამი</span><strong id="cartTotal">0₾</strong></div><button id="checkoutBtn" class="primary-btn full-btn">შეკვეთის გაფორმება</button></div>
+</aside>
+
+<!-- პროდუქტის დეტალები -->
+<div class="modal" id="productModal">
+  <div class="modal-box product-modal-box">
+    <button class="modal-close" data-close>✕</button>
+    <div id="productDetail"></div>
+  </div>
+</div>
+
+<!-- შეკვეთა -->
+<div class="modal" id="checkoutModal">
+  <div class="modal-box">
+    <button class="modal-close" data-close>✕</button>
+    <div class="eyebrow"><span></span> NOVA CHECKOUT</div>
+    <h2>შეკვეთის გაფორმება</h2>
+    <form id="checkoutForm" class="modal-form">
+      <input type="text" placeholder="სახელი და გვარი" required>
+      <input type="tel" placeholder="ტელეფონის ნომერი" required>
+      <input type="text" placeholder="მისამართი" required>
+      <button class="primary-btn full-btn" type="submit">შეკვეთის დადასტურება</button>
+    </form>
+    <p class="demo-note">სადემონსტრაციო ფორმა — რეალური შეკვეთა არ იგზავნება.</p>
+  </div>
+</div>
+
+<!-- ანგარიში -->
+<div class="modal" id="accountModal">
+  <div class="modal-box">
+    <button class="modal-close" data-close>✕</button>
+    <div class="eyebrow"><span></span> WELCOME TO NOVA</div>
+    <h2>შესვლა / რეგისტრაცია</h2>
+    <form id="accountForm" class="modal-form">
+      <input type="email" placeholder="ელფოსტა" required>
+      <input type="password" placeholder="პაროლი" required>
+      <button class="primary-btn full-btn" type="submit">გაგრძელება</button>
+    </form>
+    <p class="demo-note">სადემონსტრაციო ფორმა — ანგარიში რეალურად არ იქმნება.</p>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+</body>
+</html>
